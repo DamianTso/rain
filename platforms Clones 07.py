@@ -396,7 +396,7 @@ class Ball(pygame.sprite.Sprite):
         self.BALL_SIZE = random.randrange(30, 40)
         self.x = 25
         self.y = 25
-        ball_img = pygame.image.load("Imagesp\\ball_image1.png").convert()
+        ball_img = pygame.image.load("ball_image1.png").convert()
         self.image_orig = pygame.transform.scale(ball_img, (self.BALL_SIZE, self.BALL_SIZE))
 
         # self.image = pygame.Surface((50, 50))
