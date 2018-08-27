@@ -22,3 +22,8 @@ for row in range(12):
     for left in range(row):
          print(row, end='')
     print()
+for item in range(100):
+    if item % 7 == 0:
+        print()
+    else:
+        print(item, end=' ')
