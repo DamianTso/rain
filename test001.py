@@ -26,6 +26,8 @@ for row in range(12):
     for left in range(row):
         print(row, end='')
     print()
+
+# Use of format to print with padding (the column has a 6 digitd width, and is right justified)
 for item in range(1,100):
 
         print("{:6d}".format(item), end=' ')
