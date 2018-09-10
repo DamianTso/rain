@@ -10,8 +10,9 @@
       <mapping ext="wav" type="PLAIN_TEXT" />
       <mapping ext="exe" type="PLAIN_TEXT" />
       <mapping pattern="florin" type="Python" />
-      <mapping pattern="resources" type="SVG" />
+      <mapping ext="pyd" type="Python" />
       <mapping pattern="img" type="SVG" />
+      <mapping pattern="resources" type="SVG" />
       <removed_mapping ext="dll" type="UNKNOWN" />
     </extensionMap>
   </component>
